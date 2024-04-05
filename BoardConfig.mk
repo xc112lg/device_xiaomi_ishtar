@@ -3,6 +3,12 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/evolution/config/device_framework_matrix.xml
+# Build
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
 DEVICE_PATH := device/xiaomi/ishtar
 
